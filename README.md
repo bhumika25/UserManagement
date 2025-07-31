@@ -5,15 +5,15 @@
 - Prisma as the ORM
 - Docker for containerization
 # Prerequisites:
--Ensure Docker Desktop is installed on your system
+Ensure Docker Desktop is installed on your system
 # Start the application:
-- Navigate to the user-profile-service directory (where docker-compose.yml is located)
+Navigate to the user-profile-service directory (where docker-compose.yml is located)
 # Run:
-- docker-compose up --build
+docker-compose up --build
 # Access the application:
-- Open http://localhost:3000/profiles in your browser
+Open http://localhost:3000/profiles in your browser
 # Run unit tests:
--Unit tests are written using Vitest
+Unit tests are written using Vitest. 
 Ensure Docker is running, then execute:
 npm run test
 # API documentation:
