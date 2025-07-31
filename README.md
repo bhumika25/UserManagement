@@ -36,19 +36,23 @@ npm install
 # API Endpoints Overview
 
 Retrieve a single profile-
-URL: GET /profiles/:id -
+Method: GET |
+URL: /profiles/:id -
 Purpose: Fetch a specific user profile by ID
 
 Retrieve all profiles-
-URL: GET /profiles -
+Method: GET |
+URL: /profiles -
 Purpose: List all user profiles in the system
 
 Create a new profile-
-URL: POST /profiles -
+Method: POST |
+URL: /profiles -
 Purpose: Create a new profile entry in the database
 
 Update an existing profile-
-URL: PUT /profiles/:id -
+Method: PUT |
+URL: /profiles/:id -
 Purpose: Fully update a profile by its ID
 
 PUT is used for updates assuming the entire profile object is sent.If partial updates become common, consider supporting PATCH
