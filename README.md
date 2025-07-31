@@ -1,31 +1,25 @@
 # Project Overview and Setup Instructions
-1.Backend stack:
+# Backend stack:
 - Fastify for building APIs
 - PostgreSQL as the database
 - Prisma as the ORM
 - Docker for containerization
-2. Prerequisites:
+# Prerequisites:
 -Ensure Docker Desktop is installed on your system
-3. Start the application:
+# Start the application:
 - Navigate to the user-profile-service directory (where docker-compose.yml is located)
-
-Run:
+# Run:
 - docker-compose up --build
-
-Access the application:
-- Open http://localhost:3000/ in your browser
-
-4. Run unit tests:
+# Access the application:
+- Open http://localhost:3000/profiles in your browser
+# Run unit tests:
 -Unit tests are written using Vitest
 Ensure Docker is running, then execute:
 npm run test
-
-5. API documentation:
+# API documentation:
 Swagger docs available at:
 http://localhost:3000/docs
-
-6. Linting and formatting:
-
+# Linting and formatting:
 ESLint is installed:
 npm run eslint
 
